@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="3.0.1" sequence="0" timestamp="1500486549410" analysisTimestamp="1500486566186" release="">
+  <Project projectName="Sieve">
+    <Jar>C:\Users\frans_000\Desktop\GitHub\CS1632\Exercise8\CS1632_Deliverable8\bug_folder\Sieve.class</Jar>
+  </Project>
+  <BugInstance type="DLS_DEAD_LOCAL_STORE" priority="3" rank="20" abbrev="DLS" category="STYLE">
+    <Class classname="Sieve">
+      <SourceLine classname="Sieve" sourcefile="Sieve.java" sourcepath="Sieve.java"/>
+    </Class>
+    <Method classname="Sieve" name="generateSieve" signature="(I)[I" isStatic="true">
+      <SourceLine classname="Sieve" start="175" end="183" startBytecode="0" endBytecode="22" sourcefile="Sieve.java" sourcepath="Sieve.java"/>
+    </Method>
+    <LocalVariable name="?" register="1" pc="2" role="LOCAL_VARIABLE_UNKNOWN"/>
+    <SourceLine classname="Sieve" start="175" end="175" startBytecode="1" endBytecode="1" sourcefile="Sieve.java" sourcepath="Sieve.java"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.BASE_VALUE" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.COPY_VALUE" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="?"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.NO_LOADS" value="true"/>
+  </BugInstance>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Wed, 19 Jul 2017 13:49:09 -0400" total_classes="1" referenced_classes="15" total_bugs="1" total_size="88" num_packages="1" java_version="1.8.0_77" vm_version="25.77-b03" cpu_seconds="4.05" clock_seconds="74.17" peak_mbytes="258.20" alloc_mbytes="683.00" gc_seconds="0.01" priority_3="1">
+    <PackageStats package="" total_bugs="1" total_types="1" total_size="88" priority_3="1">
+      <ClassStats class="Sieve" sourceFile="Sieve.java" interface="false" size="88" bugs="1" priority_3="1"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="234" invocations="354" avgMicrosecondsPerInvocation="663" maxMicrosecondsPerInvocation="14213" standardDeviationMircosecondsPerInvocation="1396"/>
+      <ClassProfile name="edu.umd.cs.findbugs.FindBugs2" totalMilliseconds="83" invocations="2" avgMicrosecondsPerInvocation="41741" maxMicrosecondsPerInvocation="67142" standardDeviationMircosecondsPerInvocation="25401"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="22" invocations="355" avgMicrosecondsPerInvocation="63" maxMicrosecondsPerInvocation="627" standardDeviationMircosecondsPerInvocation="52"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FieldItemSummary" totalMilliseconds="19" invocations="15" avgMicrosecondsPerInvocation="1326" maxMicrosecondsPerInvocation="5621" standardDeviationMircosecondsPerInvocation="1465"/>
+      <ClassProfile name="edu.umd.cs.findbugs.util.TopologicalSort" totalMilliseconds="17" invocations="319" avgMicrosecondsPerInvocation="54" maxMicrosecondsPerInvocation="878" standardDeviationMircosecondsPerInvocation="98"/>
+      <ClassProfile name="edu.umd.cs.findbugs.OpcodeStack$JumpInfoFactory" totalMilliseconds="14" invocations="86" avgMicrosecondsPerInvocation="174" maxMicrosecondsPerInvocation="803" standardDeviationMircosecondsPerInvocation="158"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History></History>
+</BugCollection>
